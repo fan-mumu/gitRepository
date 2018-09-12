@@ -1,0 +1,65 @@
+1.Class
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+/**
+ * description:
+ *
+ * change history:
+ * date             defect#             person             comments
+ * ---------------------------------------------------------------------------------------------------------------------
+ * ${DATE}        ********             Bear               create file
+ *
+ * @author: Bear
+ * @date: ${DATE} ${TIME}
+ * @copyright: ${YEAR}, FA Software (Shanghai) Co., Ltd. All Rights Reserved.  
+ */
+public class ${NAME} {
+}
+
+2.Interface
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+/**
+ * description:
+ *      This file use to define the ${NAME} interface.
+ * change history:
+ * date             defect#             person             comments
+ * ---------------------------------------------------------------------------------------------------------------------
+ * ${DATE}        ********             Bear               create file
+ *
+ * @author: Bear
+ * @date: ${DATE} ${TIME}
+ * @copyright: ${YEAR}, FA Software (Shanghai) Co., Ltd. All Rights Reserved. 
+ */
+public interface ${NAME} {
+}
+
+3.Enum
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+/**
+ * description:
+ *      This file use to define ${NAME} by Enum
+ * change history:
+ * date             defect#             person             comments
+ * ---------------------------------------------------------------------------------------------------------------------
+ * ${DATE}        ********             Bear               create file
+ *
+ * @author: Bear
+ * @date: ${DATE} ${TIME}
+ * @copyright: ${YEAR}, FA Software (Shanghai) Co., Ltd. All Rights Reserved. 
+ */
+public enum ${NAME} {
+}
+
+4.Method
+*     
+ * description:
+ * change history:
+ * date             defect             person             comments
+ * ---------------------------------------------------------------------------------------------------------------------
+ * @author Bear
+ * @date $date$
+ * @param $params$ -
+ * @return $return$
+ */
